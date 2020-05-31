@@ -9,8 +9,8 @@ class Info_System:
 		self.root.title("PLACES TO VISIT")
 		self.root.geometry("1000x1500+0+0")
 		
-		self.bg_icon=ImageTk.PhotoImage(file='login.jpg')
-		self.user_icon=PhotoImage(file='user1.png')
+		self.bg_icon=ImageTk.PhotoImage(file='login.jpg')   #for jpg photo
+		self.user_icon=PhotoImage(file='user1.png')  #give the full path eg:/home/nidhi/Documents/python mini project/kanheri.png
 		self.p1=PhotoImage(file='marine.png')
 		self.p2=PhotoImage(file='gateway.png')
 		self.p3=PhotoImage(file='hajiali.png')
